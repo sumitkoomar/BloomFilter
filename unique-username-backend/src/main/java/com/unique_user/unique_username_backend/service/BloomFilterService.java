@@ -33,7 +33,6 @@ public class BloomFilterService {
             bloomFilter.put(user.getUsername());
         }
 
-
     }
 
     public boolean mightContain(String username) {
